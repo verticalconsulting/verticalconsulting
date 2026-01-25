@@ -155,14 +155,21 @@
 	</footer>
 	<script src="script.js"></script>
 
-	<!-- Conversion tracking: Google Ads & Facebook Pixel placeholders -->
-	<!-- Google Ads conversion (replace AW-CONVERSION_ID/CONVERSION_LABEL) -->
+	<!-- Conversion tracking: Google Ads & Facebook Pixel -->
+	<!-- TODO: Replace placeholder IDs with actual conversion IDs from your ad accounts -->
+	<!-- Google Ads conversion tracking -->
 	<script>
-		/* Google Ads conversion snippet (page event). Replace with your AW-CONVERSION_ID */
+		/* Google Ads conversion snippet
+		 * SETUP INSTRUCTIONS:
+		 * 1. Go to Google Ads > Tools & Settings > Conversions
+		 * 2. Create a new conversion action (Form Submit)
+		 * 3. Get your Conversion ID and Label
+		 * 4. Replace 'AW-XXXXXXXXXX/YYYYYYYYYY' below with your actual values
+		 */
 		function sendGoogleAdsConversion() {
 		  if (typeof gtag === 'function') {
 			gtag('event', 'conversion', {
-			  'send_to': 'AW-CONVERSION_ID/CONVERSION_LABEL',
+			  'send_to': 'AW-XXXXXXXXXX/YYYYYYYYYY', // REPLACE WITH YOUR CONVERSION ID/LABEL
 			  'event_callback': function() {
 				console.log('Google Ads conversion event sent');
 			  }
@@ -173,8 +180,14 @@
 		}
 	</script>
 
-	<!-- Facebook Pixel base (replace YOUR_PIXEL_ID) -->
+	<!-- Facebook Pixel base code -->
 	<script>
+		/* Facebook Pixel Setup
+		 * SETUP INSTRUCTIONS:
+		 * 1. Go to Facebook Events Manager
+		 * 2. Find your Pixel ID (15-16 digit number)
+		 * 3. Replace 'YOUR_PIXEL_ID' below with your actual Pixel ID
+		 */
 		!function(f,b,e,v,n,t,s)
 		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -184,8 +197,8 @@
 		s.parentNode.insertBefore(t,s)}(window, document,'script',
 		'https://connect.facebook.net/en_US/fbevents.js');
 		try{
-		  fbq('init', 'YOUR_PIXEL_ID');
-		  fbq('consent', 'grant'); // optional: indicate consent given
+		  fbq('init', 'YOUR_PIXEL_ID'); // REPLACE WITH YOUR FACEBOOK PIXEL ID
+		  fbq('consent', 'grant');
 		}catch(e){console.warn('FB Pixel init failed', e)}
 	</script>
 	<noscript><img height="1" width="1" style="display:none"
