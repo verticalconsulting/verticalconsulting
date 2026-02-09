@@ -13,14 +13,14 @@
   <!-- Main Pages -->
   <url>
     <loc>https://www.verticalconsulting.net/about.html</loc>
-    <lastmod>2026-01-25</lastmod>
+    <lastmod>2026-02-04</lastmod>
     <priority>0.80</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
     <loc>https://www.verticalconsulting.net/services.html</loc>
-    <lastmod>2026-01-25</lastmod>
+    <lastmod>2026-02-04</lastmod>
     <priority>0.90</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -79,7 +79,7 @@
   <!-- Product Pages -->
   <url>
     <loc>https://www.verticalconsulting.net/grace-ai-receptionist.html</loc>
-    <lastmod>2026-01-25</lastmod>
+    <lastmod>2026-02-04</lastmod>
     <priority>0.85</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -95,7 +95,7 @@
   <!-- Contact -->
   <url>
     <loc>https://www.verticalconsulting.net/contact.html</loc>
-    <lastmod>2026-01-25</lastmod>
+    <lastmod>2026-02-04</lastmod>
     <priority>0.85</priority>
     <changefreq>monthly</changefreq>
   </url>
